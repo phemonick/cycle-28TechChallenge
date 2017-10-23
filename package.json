@@ -1,0 +1,30 @@
+{
+  "name": "primefactor",
+  "version": "1.0.0",
+  "description": "javascript tdd with mochai",
+  "main": "src/primeFactor.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phemonick/cycle-28TechChallenge.git"
+  },
+  "keywords": [
+    "TDD",
+    "javascript"
+  ],
+  "author": "oluwafemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phemonick/cycle-28TechChallenge/issues"
+  },
+  "homepage": "https://github.com/phemonick/cycle-28TechChallenge#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mochai": "^0.2.5"
+  }
+}
