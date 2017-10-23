@@ -1,18 +1,23 @@
-const assert = require('chai').assert;
-const myApp = require('../src/primeFactor.js');
+// const assert = require('chai').assert;
+import { assert } from 'chai';
+import rainDrop from '../src/primeFactor.js'
+
+// const assert = chai.assert;
+
+
 
 	describe("primeFactor", () => {
 
 		describe("handle invalid input", ()=> {
 			it("should display invalid input for string ", () => {
-				assert.equal(myApp.factor("name"), "invalid input, must be a number");
+				assert.equal(myApp("name"), "undefined");
 
 			});
 		})
 
 		describe("handle invalid input", ()=> {
 			it("should display undefined for empty string", () => {
-				assert.equal(myApp.factor(''), "undefined");
+				assert.equal(myApp.(" "), "undefined");
 
 			});
 		})
@@ -49,5 +54,16 @@ const myApp = require('../src/primeFactor.js');
 
 			});
 		})
+		describe("handle valid input", ()=> {
+			it("should return pingplang for 1755 ", () => {
+				assert.equal(myApp.factor(1755), "plingplang");
+
+			});
+		})
+
+
+
+
+
 
 	})
