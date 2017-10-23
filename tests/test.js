@@ -2,6 +2,13 @@ const assert = require('chai').assert;
 const myApp = require('../src/primeFactor.js');
 
 	describe("primeFactor", () => {
+
+		describe("handle invalid input", ()=> {
+			it("should display invalid input for string ", () => {
+				assert.equal(myApp.factor("name"), "invalid input, must be a number");
+
+			});
+		})
 		describe("handle valid input", ()=> {
 			it("should display pling as 3 is a prime factor ", () => {
 				assert.equal(myApp.factor(3), "pling");
