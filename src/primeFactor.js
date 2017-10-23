@@ -13,6 +13,9 @@ module.exports={
 		if(3%input==0){
 			return "pling"
 		}
+		else if(5%input == 0){
+			return "plang"
+		}
 	}
 }
 
