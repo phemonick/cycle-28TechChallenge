@@ -9,6 +9,14 @@ const myApp = require('../src/primeFactor.js');
 
 			});
 		})
+
+		describe("handle invalid input", ()=> {
+			it("should display undefined for empty string", () => {
+				assert.equal(myApp.factor(''), "undefined");
+
+			});
+		})
+
 		describe("handle valid input", ()=> {
 			it("should display pling as 3 is a prime factor ", () => {
 				assert.equal(myApp.factor(3), "pling");

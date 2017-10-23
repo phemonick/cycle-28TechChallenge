@@ -3,14 +3,16 @@ module.exports={
 	if(typeof(input) !== 'number'){
 		return "invalid input, must be a number"
 	}
-	else if(typeof(input) == ''){
+	else if(input === ''){
 		return "undefined"
 	}
 	else if(input<=0){
 		return "undefined"
 	}
 	else{
-		return 0
+		if(3%input==0){
+			return "pling"
+		}
 	}
 }
 
