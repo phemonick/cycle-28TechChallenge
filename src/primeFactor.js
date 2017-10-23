@@ -16,6 +16,9 @@ module.exports={
 		else if(5%input == 0){
 			return "plang"
 		}
+		else if (7%input == 0) {
+			return "plong";
+		}
 	}
 }
 
