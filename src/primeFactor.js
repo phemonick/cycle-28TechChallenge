@@ -14,7 +14,7 @@ const rainDrop = (input)=> {
 		else if(input%3==0 & input%5==0){
 			return "plingplang"
 		}
-		else if((input%4 == 0) && (input%7==0)){
+		else if((input%3 == 0) && (input%7==0)){
 			return "plingplong"
 		}
 		else if((input%5==0)&&(input%7==0)){
