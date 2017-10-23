@@ -49,28 +49,28 @@ import rainDrop from '../src/primeFactor.js'
 			});
 		})
 		describe("handle valid input", ()=> {
-			it("should display '50' as not knowing what to do ", () => {
-				assert.equal(rainDrop(50), 50);
+			it("should display '52' as not knowing what to do ", () => {
+				assert.equal(rainDrop(52), 52);
 
 			});
 		})
 		describe("handle valid input", ()=> {
 			it("should display plingplang  ", () => {
-				assert.equal(rainDrop(15),(15), "plingplang");
+				assert.equal(rainDrop(15), "plingplang");
 
 			});
 		})
 
 		describe("handle valid input", ()=> {
 			it("should display plingplangplong  ", () => {
-				assert.equal(rainDrop(105),(105), "plingplangplong");
+				assert.equal(rainDrop(105), "plingplangplong");
 
 			});
 		})
 
 		describe("handle valid input", ()=> {
 			it("should display plingplang  ", () => {
-				assert.equal(rainDrop(35),(35), "plangplong");
+				assert.equal(rainDrop(35), "plangplong");
 
 			});
 		})
